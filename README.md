@@ -192,12 +192,6 @@ Use the command line as normal in the container.
 root@4d315992ca28:/app# agrajag -h
 ```
 
-# ⚠️ Limitations
-
----
-
-Describe any limitation the application may have (if any).
-
 # ⁉️ Some Quirks
 
 ---
