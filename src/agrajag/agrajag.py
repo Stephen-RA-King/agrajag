@@ -49,7 +49,7 @@ def fizzbuzz(number_range: int) -> list:
             result.append("Fizz")
         else:
             result.append(num)
-    logger.debug(f"fizzbuzz result: {result}")
+    logger.debug("fizzbuzz result: %s", result)
     return result
 
 
@@ -75,7 +75,7 @@ def fibonacci(number_range: int) -> list:
     a, b = 1, 1
     while True:
         if a >= number_range:
-            logger.debug(f"fibonacci result: {result}")
+            logger.debug("fibonacci result: %s", result)
             return result
         result.append(a)
         a, b = b, (a + b)
